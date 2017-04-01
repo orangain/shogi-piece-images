@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "svgo": "^0.7.2"
+    "svgo": "^0.7.2",
+    "svgpath": "^2.2.1"
   }
 }
