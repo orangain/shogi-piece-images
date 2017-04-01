@@ -20,9 +20,7 @@ lineReader.on('line', function (line) {
     <feOffset result="offsetBlur" dx="2" dy="2" />
     <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
 </filter>`;
-    line = line + `\n<g transform="translate(${dx} ${dy})">`;
-  } else if (line.indexOf('fill="#FEEC99"') >= 0) {
-    line = line.replace(/\/>/, ' filter="url(#drop-shadow)" />');
+    line = line + `\n<g filter="url(#drop-shadow)" transform="translate(${dx} ${dy})">`;
   } else if (line.indexOf('</svg>') >= 0) {
     line = '</g>\n' + line;
   }
