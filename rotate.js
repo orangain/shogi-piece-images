@@ -10,9 +10,9 @@ lineReader.on('line', function (line) {
     const height = line.match(/height="([^"]*)"/)[1] - 0;
     const center = {x: width / 2, y: height / 2};
 
-    line = line + `<g transform="rotate(180 ${center.x} ${center.y})">`;
+    line = line + `\n<g transform="rotate(180 ${center.x} ${center.y})">`;
   } else if (line.indexOf('</svg>') >= 0) {
-    line = '</g>' + line;
+    line = '</g>\n' + line;
   }
   console.log(line);
 });
