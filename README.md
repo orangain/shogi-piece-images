@@ -1,5 +1,5 @@
 # shogi-piece-images
-SVG image of Shogi pieces licensed under CC BY-SA.
+SVG image of Shogi pieces licensed under CC BY-SA. You can find SVG files in the [6_shadow](https://github.com/orangain/shogi-piece-images/tree/master/6_shadow) directory.
 
 <img src="https://orangain.github.io/shogi-piece-images/6_shadow/0FU.svg"> <img src="https://orangain.github.io/shogi-piece-images/6_shadow/0KY.svg"> <img src="https://orangain.github.io/shogi-piece-images/6_shadow/0KE.svg"> <img src="https://orangain.github.io/shogi-piece-images/6_shadow/0GI.svg"> <img src="https://orangain.github.io/shogi-piece-images/6_shadow/0KI.svg"> <img src="https://orangain.github.io/shogi-piece-images/6_shadow/0KA.svg"> <img src="https://orangain.github.io/shogi-piece-images/6_shadow/0HI.svg"> <img src="https://orangain.github.io/shogi-piece-images/6_shadow/0OU.svg">
 
