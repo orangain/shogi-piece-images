@@ -1,14 +1,14 @@
 {
   "name": "shogi-piece-images",
   "version": "1.0.0",
-  "description": "",
+  "description": "SVG image of Shogi pieces licensed under CC BY-SA.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["shogi", "svg"],
+  "author": "orangain",
+  "license": "MIT",
   "dependencies": {
     "svgo": "^0.7.2",
     "svgpath": "^2.2.1"
