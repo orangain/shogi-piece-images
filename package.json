@@ -6,11 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["shogi", "svg"],
+  "keywords": [
+    "shogi",
+    "svg"
+  ],
   "author": "orangain",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "svgo": "^0.7.2",
     "svgpath": "^2.2.1"
+  },
+  "dependencies": {
+    "datauri": "^1.0.5"
   }
 }
