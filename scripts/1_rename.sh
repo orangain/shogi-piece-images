@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FROM_DIR=0_original
-TO_DIR=1_renamed
+FROM_DIR=$1
+TO_DIR=$2
 
 mkdir -p $TO_DIR
 
