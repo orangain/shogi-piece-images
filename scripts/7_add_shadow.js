@@ -15,12 +15,13 @@ lineReader.on('line', function (line) {
     line = line.replace(/height="([^"]*)"/, (match, h) => {
       return `height="${(h - 0) + dy * 2}"`;
     });
-    line = line + `<filter id="drop-shadow">
+  } else if (line.indexOf('-->') >= 0) {
+    line = line + `\n<filter id="drop-shadow">
     <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="2" />
     <feOffset result="offsetBlur" dx="2" dy="2" />
     <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
-</filter>`;
-    line = line + `\n<g filter="url(#drop-shadow)" transform="translate(${dx} ${dy})">`;
+</filter>
+<g filter="url(#drop-shadow)" transform="translate(${dx} ${dy})">`;
   } else if (line.indexOf('</svg>') >= 0) {
     line = '</g>\n' + line;
   }
