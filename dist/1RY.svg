@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="52.324" height="60"><filter id="drop-shadow">
+<svg xmlns="http://www.w3.org/2000/svg" width="52.324" height="60">
+<!--
+Created by Hari Seldon and modified by orangain, licensed under Creative Commons Attribution-Share Alike 3.0 Unported.
+See: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+
+Original file is available at: https://commons.wikimedia.org/wiki/File:Shogi_ryuo(svg).svg
+-->
+<filter id="drop-shadow">
     <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="2" />
     <feOffset result="offsetBlur" dx="2" dy="2" />
     <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
