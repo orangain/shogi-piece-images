@@ -9,6 +9,14 @@ SVG image of Shogi pieces licensed under CC BY-SA. You can find SVG files in the
 
 <img src="https://orangain.github.io/shogi-piece-images/dist/1TO.svg"> <img src="https://orangain.github.io/shogi-piece-images/dist/1NY.svg"> <img src="https://orangain.github.io/shogi-piece-images/dist/1NK.svg"> <img src="https://orangain.github.io/shogi-piece-images/dist/1NG.svg"> <img src="https://orangain.github.io/shogi-piece-images/dist/1UM.svg"> <img src="https://orangain.github.io/shogi-piece-images/dist/1RY.svg">
 
+## Build
+
+Build SVG images in `dist` directory from `original` directory.
+
+```
+$ npm install
+$ ./build.sh
+```
 
 ## License
 
