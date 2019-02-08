@@ -1,6 +1,6 @@
 Shogi_fuhyo(svg).svg    0FU.svg
 Shogi_ginsho(svg).svg   0GI.svg
-Shogi_gyokusho(svg).svg 0OU.svg
+Shogi_gyokusho(svg).svg 0GY.svg
 Shogi_hisha(svg).svg    0HI.svg
 Shogi_kakugyo(svg).svg  0KA.svg
 Shogi_keima(svg).svg    0KE.svg
@@ -9,6 +9,7 @@ Shogi_kyosha(svg).svg   0KY.svg
 Shogi_narigin(svg).svg  0NG.svg
 Shogi_narikei(svg).svg  0NK.svg
 Shogi_narikyo(svg).svg  0NY.svg
+Shogi_osho(svg).svg     0OU.svg
 Shogi_ryuma(svg).svg    0UM.svg
-Shogi_ryuo(svg).svg 0RY.svg
+Shogi_ryuo(svg).svg     0RY.svg
 Shogi_tokin(svg).svg    0TO.svg

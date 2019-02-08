@@ -10,5 +10,3 @@ mkdir -p $TO_DIR
 cat scripts/mapping.txt | while read FROM_FILE TO_FILE; do
     cp $FROM_DIR/$FROM_FILE $TO_DIR/$TO_FILE
 done
-
-# Note: Shogi_osho(svg).svg is not used.
