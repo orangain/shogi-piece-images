@@ -2,6 +2,10 @@
   "name": "shogi-piece-images",
   "version": "1.0.0",
   "description": "SVG image of Shogi pieces licensed under CC BY-SA.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orangain/shogi-piece-images"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
